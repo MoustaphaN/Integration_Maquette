@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Intregration Maquette</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+    <div class="global">
+        <!-- PREMIERE PARTIE -->
+    <header class="menu">
+        <div class="logos">
+            <img src="photos/logo.png" alt="">
+        </div>
+        <div class="menu-text">
+            <ul>
+                <li><a href="#contact">CONTACTS</a></li>
+                <li><a href="#produits">PRODUITS</a></li>
+                <li><a href="#accueil" id="accueil">ACCUEIL</a></li>
+              </ul>
+        </div>
+    </header>
+    <!--DEUXIEME PARTIE  -->
+    <div class="deux">
+        <div class="deux_text">
+            <p>Votre chocolatier</p>
+        </div>
+        <div class="deux_img">
+            <svg 
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="17.028in" height="1.556in">
+           <path fill-rule="evenodd"  fill="rgb(68, 37, 16)"
+            d="M1860.064,47.859 C1850.233,52.532 1839.199,53.934 1824.448,49.262 L1694.311,5.779 C1683.236,2.036 1672.210,-2.636 1661.134,2.509 L1562.930,46.934 C1553.099,51.606 1539.584,53.934 1527.314,48.333 L1397.136,4.853 C1384.865,1.107 1371.359,-2.636 1360.325,2.509 L1262.079,46.934 C1252.248,51.606 1238.742,53.934 1226.463,48.333 L1096.326,4.853 C1085.259,1.107 1071.744,-2.636 1059.474,2.509 L951.594,50.858 C943.883,52.762 935.206,52.625 924.581,49.262 L794.436,5.779 C783.369,2.036 772.335,-2.636 761.259,2.509 L663.055,46.934 C653.224,51.606 639.718,53.934 627.447,48.333 L497.261,4.853 C484.991,1.107 471.484,-2.636 460.450,2.509 L362.205,46.934 C352.374,51.606 338.867,53.934 326.597,48.333 L196.451,4.853 C185.384,1.107 171.870,-2.636 159.599,2.509 L0.002,74.038 L0.002,101.157 L83.505,63.294 C94.531,58.148 110.477,62.350 120.316,65.622 L250.494,109.102 C264.000,113.790 275.035,111.917 284.866,107.703 L384.314,63.294 C394.145,58.622 411.327,62.350 419.922,65.622 L550.067,109.102 C564.810,113.790 575.844,112.375 585.675,107.703 L683.921,63.294 C694.955,58.148 710.942,62.350 720.732,65.622 L850.918,109.102 C864.424,113.790 875.459,111.917 885.290,107.703 L989.011,61.879 C999.399,59.794 1011.874,62.867 1020.183,65.622 L1150.369,109.102 C1163.875,113.790 1174.910,111.917 1184.740,107.703 L1284.181,63.294 C1294.012,58.622 1311.202,62.350 1319.797,65.622 L1449.934,109.102 C1464.685,113.790 1475.719,112.375 1485.550,107.703 L1583.795,63.294 C1594.821,58.148 1610.817,62.350 1620.607,65.622 L1750.784,109.102 C1764.299,113.790 1775.325,111.917 1785.156,107.703 L1945.998,36.645 L1945.998,9.996 L1860.064,47.859 Z"/>
+           </svg>
+        </div>
+    </div>
+    <!-- TROISIEME PARTIE -->
+
+    <div id="produits">
+        <div class="trois_text">les produits</div>
+        <div class="trois_slide">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ol class="carousel-indicators" >
+                  <li data-target="#demo" data-slide-to="0" class="active" style="background-color:#442510; border-radius: 100%; height: 27px;"></li>
+                  <li data-target="#demo" data-slide-to="1" style="background-color:#442510; border-radius: 100%; height: 27px;"></li>
+                  <li data-target="#demo" data-slide-to="2" style="background-color:#442510; border-radius: 100%; height: 27px;"></li>
+                </ol>
+                
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img1" src="photos/chocolat.png" alt="Los Angeles" width="2100px" height="500">
+                            <p class="choco1">Description du <br> pro chocolat <br> noir a la creme</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img2" src="photos/lindor-noel-cornet-337-g-lindt.jpg" alt="Los Angeles" width="300" height="500">
+                            <p class="choco2">lint lindor chocolat <br> de lint vos <br> chocolatiers</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img3" src="photos/chocolatautre.jpg" alt="Los Angeles" width="300" height="500">
+                            <p class="choco3">chocolat saf sap le <br> chocolat du noir au <br>gout agreable</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item ">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img4" src="photos/lindor-noel-cornet-337-g-lindt.jpg" alt="Chicago" width="1100" height="500">
+                            <p class="choco4">lint lindor chocolat <br> de lint vos <br> chocolatiers</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img5" src="photos/chocolatautre.jpg" alt="Los Angeles" width="300" height="500">
+                            <p class="choco5">chocolat saf sap le <br> chocolat du noir au <br>gout agreable</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img6" src="photos/chocolat.png" alt="Los Angeles" width="300" height="500">
+                            <p class="choco6">Description du <br> pro chocolat <br> noir a la creme</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item ">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img7" src="photos/chocolatautre.jpg" alt="New York" width="1100" height="500">
+                            <p class="choco7">chocolat saf sap le <br> chocolat du noir au <br>gout agreable</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img8" src="photos/chocolat.png" alt="Los Angeles" width="300" height="500">
+                            <p class="choco8">Description du <br> pro chocolat <br> noir a la creme</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img9" src="photos/lindor-noel-cornet-337-g-lindt.jpg" alt="Los Angeles" width="300" height="500">
+                            <p class="choco9">lint lindor chocolat <br> de lint vos <br> chocolatiers</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <!-- QUATRIEME PARTIE -->
+    <div id="contact">
+        <div class="quatre_text">contact</div>
+        <div class="form_wrapper">
+            <div class="form_container">
+              <div class="title_container">
+              </div>
+              <form>
+                <div class="row clearfix">
+                  <div class="col_half">
+                    <label>Nom</label>
+                    <div class="input"> <span><i aria-hidden="true" class=""></i></span>
+                      <input type="text" name="first_name" placeholder="" required />
+                    </div>
+                  </div>
+                  <div class="col_half">
+                    <label>Email</label>
+                    <div class="input"> <span><i aria-hidden="true" class=""></i></span>
+                      <input type="email" name="email" placeholder="" required />
+                    </div>
+                  </div>
+                </div>
+                <div class="row clearfix">
+                  <div class="col_half">
+                    <label>Prénom</label>
+                    <div class="input"> <span><i aria-hidden="true" class=""></i></span>
+                      <input type="text" name="last_name" placeholder="" />
+                    </div>
+                  </div>
+                 
+                  <div class="col_half">
+                    <label>Tel</label>
+                    <div class="input"> <span><i aria-hidden="true" class=""></i></span>
+                      <input type="tel" name="phone" placeholder="" pattern="[0-9]{10}" />
+                    </div>
+                  </div>
+                </div>
+                <div class="row clearfix">
+                  <div>
+                    <label>Message</label>
+                    <div class="textarea"> <span><i aria-hidden="true" class=""></i></span>
+                      <textarea cols="10" rows="3" name="comments"></textarea>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        <div class="footer">
+            <div sociaux>
+                <img class="image1" src="photos/Linkedin.png" alt="" width="8%">
+                <img class="image2" src="photos/facebook.png" alt="" width="6%">
+                <img class="image3" src="photos/instagram.png" alt="" width="6%">
+            </div>
+
+        </div>
+    </div>
+    </div>
+</body>
+</html>
